@@ -2,10 +2,13 @@ programa
 {
 	funcao inicio()
 	{
-		real n1,n2,n3
-		escreva("Escreva 3 numeros: ")
-		leia(n1,n2,n3)
-		escreva("A media entre os tres numeros é ", (n1+n2+n3)/3)
+		real base,altura
+
+		escreva("Digite a base do triangulo  ")
+		leia(base)
+		escreva("Digite a altura do triangulo :  ")
+		leia(altura)
+		escreva("A area do triangulo é de ",base*altura/2)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -13,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 153; 
+ * @POSICAO-CURSOR = 224; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -2,14 +2,15 @@ programa
 {
 	funcao inicio()
 	{
-		real preso, quantidade
+		real preco, quantidade
 
 
-		escreva("Digite o preço e a quantidade do produto: ")
-		leia(preso,quantidade)
+		escreva("Digite a quantidade do produto: ")
+		leia(quantidade)
 
-		
-		escreva("O valor a ser pago é de ",preso*quantidade)
+		escreva("Digite o preço do produto: ")
+		leia(preco)
+		escreva("O valor a ser pago é de ",preco*quantidade)
 
 
 		
@@ -20,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 137; 
+ * @POSICAO-CURSOR = 243; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

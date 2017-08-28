@@ -3,12 +3,11 @@ programa
 	funcao inicio()
 	{
 		inteiro n
-
-
-		escreva("Digite a quantidade de coelhos: ")
+		escreva("Digite um numero? ")
 		leia(n)
-
-		escreva("O custo é de ",(n*0.70)/18+10)
+		escreva("Seu antecessor é ", n-1,"\n")
+		escreva("Seu sucessor é ", n+1, "\n")
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +15,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 142; 
+ * @POSICAO-CURSOR = 62; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
